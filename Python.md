@@ -1,6 +1,7 @@
-###1. a = b = [] # make a, b reference to the same list (mutable)
-so if a.append(1), then b = [1]
-a = b = mutable variables, they are references to the same object
+###1. Mutable objects
+  1. a = b = [] # make a, b reference to the same list (mutable)
+     so if a.append(1), then b = [1]
+     a = b = mutable variables, they are references to the same object
 
 ###2. my_list = [[1] * 4] * 3 # my_list = [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]]
 if set my_list[0][0] = 5, then my_list = [[5, 1, 1, 1], [5, 1, 1, 1], [5, 1, 1, 1]]
