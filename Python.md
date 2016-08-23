@@ -1,5 +1,5 @@
 ###1. Mutable objects
-  * a = b = [] # make a, b reference to the same list (mutable)
+###  * a = b = [] # make a, b reference to the same list (mutable)
     so if a.append(1), then b = [1]
     a = b = mutable variables, they are references to the same object
 
