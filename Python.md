@@ -6,7 +6,7 @@ a = b = mutable variables, they are references to the same object
 if set my_list[0][0] = 5, then my_list = [[5, 1, 1, 1], [5, 1, 1, 1], [5, 1, 1, 1]]
 [x]*3 will make references to the same object if x is mutable
 
-###3. [mutable default argument](http://docs.python-guide.org/en/latest/writing/gotchas/)
+###3. [Mutable default argument](http://docs.python-guide.org/en/latest/writing/gotchas/)
 
 ###4. Everything is a reference in Python 
   + [passing arguments](http://www.python-course.eu/python3_passing_arguments.php)
