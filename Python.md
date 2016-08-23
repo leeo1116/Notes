@@ -9,7 +9,7 @@ if set my_list[0][0] = 5, then my_list = [[5, 1, 1, 1], [5, 1, 1, 1], [5, 1, 1, 
 3. [mutable default argument](http://docs.python-guide.org/en/latest/writing/gotchas/)
 
 4. Everything is a reference in Python 
-  *4.1 [passing arguments](http://www.python-course.eu/python3_passing_arguments.php)(http://www.tutorialspoint.com/python/python_functions.htm)
+  + [passing arguments](http://www.python-course.eu/python3_passing_arguments.php)(http://www.tutorialspoint.com/python/python_functions.htm)
 
 
 
