@@ -23,5 +23,6 @@ my_class.my_class_method.return_value.my_another_class_method.return_value = 1  
 my_class.my_class_method().my_another_class_method.return_value = 1  # second approach
 # first approach is equivalent to second approach, and no need to declear:
 my_class.my_class_method.return_value = Mock()
-# [cause sth.return_value will create a new Mock() object](https://docs.python.org/3.4/library/unittest.mock.html#the-mock-class)
+# cause sth.return_value will create a new Mock() object
 ```
+[Mock()](https://docs.python.org/3.4/library/unittest.mock.html#the-mock-class)
