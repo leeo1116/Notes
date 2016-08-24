@@ -15,6 +15,7 @@ my_list = [[1] * 4] * 3 # my_list = [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]]
   + [tutorialspoint](http://www.tutorialspoint.com/python/python_functions.htm)
 
 ###4. Unittest
+  * [Mock()](https://docs.python.org/3.4/library/unittest.mock.html#the-mock-class)
 ```python
 a = Mock()
 # a.b.c is a Mock() object
@@ -25,4 +26,4 @@ my_class.my_class_method().my_another_class_method.return_value = 1  # second ap
 my_class.my_class_method.return_value = Mock()
 # cause sth.return_value will create a new Mock() object
 ```
-[Mock()](https://docs.python.org/3.4/library/unittest.mock.html#the-mock-class)
+
