@@ -15,3 +15,13 @@ my_list = [[1] * 4] * 3 # my_list = [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]]
   + [tutorialspoint](http://www.tutorialspoint.com/python/python_functions.htm)
 
 ###4. Unittest
+```python
+a = Mock()
+# a.b.c is a Mock() object
+# a.b.c.return_value is a Mock() object
+my_class.my_class_method.return_value.my_another_class_method.return_value = 1  # first approach
+my_class.my_class_method().my_another_class_method.return_value = 1  # second approach
+# first approach is equivalent to second approach, and no need to declear:
+my_class.my_class_method.return_value = Mock()
+# [cause sth.return_value will create a new Mock() object](https://docs.python.org/3.4/library/unittest.mock.html#the-mock-class)
+```
