@@ -4,7 +4,7 @@
 ```
 git rebase master  # need to deal with conflicts
 git checkout master
-git merge --squash amznlian
+git merge --squash feature
 git status
 git push
 ```
