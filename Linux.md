@@ -14,4 +14,4 @@
 
 
 #### 2. Auditd
-  * 2.1 Remove a watch: `-W path`
+  * 2.1 Remove a watch: `auditdctl -W path`
