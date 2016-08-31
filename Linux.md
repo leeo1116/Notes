@@ -2,7 +2,7 @@
   * 1.1 Install samba server on RHEL5: `sudo yum install samba`
   * 1.2 Check status: `/etc/init.d/smb status`
   * 1.3 Modify configure file `/etc/samba/smb.conf`
-  * 1.3.1 For `[workplace]` section, replace `/workplace` with any absolute direcotry `/path/you/want`
+  ** 1.3.1 For `[workplace]` section, replace `/workplace` with any absolute direcotry `/path/you/want`
   * 1.3.2 Change owner and owing group of files: `sudo chown <user id>:domain /path/you/want`
   * 1.3.3 Change access permission `chmod 770 /path/you/want`
   * 1.2 Start samba: `sudo /etc/init.d/smb start`
