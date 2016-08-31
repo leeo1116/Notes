@@ -16,3 +16,12 @@
 #### 2. System auditing service: Auditd
   * 2.1 Remove a watch: `auditdctl -W path` e.g. `auditctl -W /etc/hosts -p wa -k hosts-file`
   * 2.2 List all watches: `auditctl -l`
+  * 
+  
+
+### TO-DO
+1) remove watch
+2) restore audit.rules
+3) go through audit.log doc
+4) try touch ssh_config example
+5) https://www.redhat.com/archives/linux-audit/2013-October/msg00004.html
