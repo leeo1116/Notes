@@ -20,8 +20,7 @@
   
 
 ### TO-DO
-1) remove watch
-
+1) remove watch \n
 2) restore audit.rules
 
 3) go through audit.log doc
