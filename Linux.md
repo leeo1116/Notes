@@ -14,4 +14,5 @@
 
 
 #### 2. Auditd
-  * 2.1 Remove a watch: `auditdctl -W path`
+  * 2.1 Remove a watch: `auditdctl -W path` e.g. `auditctl -W /etc/hosts -p wa -k hosts-file`
+  * 2.2 List all watches: `auditctl -l`
