@@ -11,3 +11,7 @@
   * 1.5 Each time after changing `smb.conf`, restart to take effects: `sudo /etc/init.d/smb restart`
   * 1.6 On Windows: type server name, i.e. RHEL5 hostname, followed by /path/you/want
   * 1.7 Network drive can also be mapped to hard drive
+
+
+#### 2. Auditd
+  * 2.1 Remove a watch: `-W path`
