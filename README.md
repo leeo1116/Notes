@@ -1,2 +1,1 @@
-# Notes
-Miscellaneous Notes 
+## Scorpio Notes
