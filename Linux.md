@@ -31,3 +31,6 @@
 5) https://www.redhat.com/archives/linux-audit/2013-October/msg00004.html
 
 6) Search original doc saying that audit can capture commands
+
+
+### she-bang
