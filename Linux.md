@@ -34,3 +34,8 @@
 
 
 #### 3. she-bang
+
+### Storage Virtualization
+#### 1. Logical Volume
+#### 2. Physical Volume
+#### 3. Volume Groups
