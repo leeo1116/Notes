@@ -1,5 +1,7 @@
 ## Algorithms
-### External Sort
+### Sort
+#### External Sort
+
 
 ## Linux
 
