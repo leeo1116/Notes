@@ -1,7 +1,7 @@
 ## Algorithms
 ### Sort
 #### External Sort
-
+#### Stream Cipher
 
 ## Linux
 
