@@ -1,4 +1,4 @@
-### Linux
+## Linux
 
 ####  1. Share files between RHEL5 and Windows using Samba
   * 1.1 Install samba server on RHEL5: `sudo yum install samba`
