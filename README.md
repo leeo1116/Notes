@@ -23,8 +23,15 @@
 #### 2. System auditing service: Auditd
   * 2.1 Remove a watch: `auditdctl -W path` e.g. `auditctl -W /etc/hosts -p wa -k hosts-file`
   * 2.2 List all watches: `auditctl -l`
-  * 
-  
+
+
+#### 3. [```/proc/meminfo```](https://access.redhat.com/solutions/406773)
+ * __MemTotal__: Total usable ram (i.e. physical ram minus a few reserved bits and the kernel binary code)
+ * __MemFree__: Is sum of LowFree+HighFree (overall stat)
+ * __Buffers__: Memory in buffer cache, so relatively temporary storage for raw disk blocks. This shouldn't get very large. Memory in buffer cache, mostly useless as metric nowadays
+ * __Cached__: Memory in the pagecache (diskcache) minus SwapCache
+
+##### Memory Available = MemFree + Buffers + Cached
 
 ### TO-DO
 1) remove watch
